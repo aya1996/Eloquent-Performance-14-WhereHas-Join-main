@@ -3,6 +3,8 @@
 namespace Database\Factories;
 
 use App\Models\Booking;
+use App\Models\Device;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class BookingFactory extends Factory
@@ -22,8 +24,8 @@ class BookingFactory extends Factory
     public function definition()
     {
         return [
-            'user_id' => rand(1, 50000),
-            'device_id' => rand(1, 100000),
+            'user_id' => $this->faker->numberBetween(1, User::count()),
+            'device_id' => $this->faker->numberBetween(1, Device::count()),
             'start_time' => now()->startOfHour()->addHours(rand(1, 1000))
         ];
     }

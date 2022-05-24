@@ -14,9 +14,9 @@ class BookingSeeder extends Seeder
      */
     public function run()
     {
-        $bookings = Booking::factory(1000)->make();
-        $bookings->chunk(50)->each(function($chunk) {
-            Booking::insert($chunk->toArray());
-        });
+        $bookings = Booking::factory(1000)->create();
+        // $bookings->chunk(500)->each(function($chunk) {
+        //     Booking::insert($chunk->toArray());
+        // });
     }
 }

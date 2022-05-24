@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Device;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class DeviceFactory extends Factory
@@ -22,7 +23,7 @@ class DeviceFactory extends Factory
     public function definition()
     {
         return [
-            'user_id' => rand(1, 50000),
+            'user_id' => $this->faker->numberBetween(1, User::count()),
             'operating_system_id' => rand(1, 2),
             'device_name' => $this->faker->text(20),
         ];
