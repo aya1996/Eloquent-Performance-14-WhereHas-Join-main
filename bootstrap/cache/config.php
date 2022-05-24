@@ -183,7 +183,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\framework/cache/data',
+        'path' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -277,8 +277,8 @@
         'host' => '127.0.0.1',
         'port' => '3306',
         'database' => 'project2',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'karim2',
+        'password' => 'password',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_unicode_ci',
@@ -297,8 +297,8 @@
         'host' => '127.0.0.1',
         'port' => '3306',
         'database' => 'project2',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'karim2',
+        'password' => 'password',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -312,8 +312,8 @@
         'host' => '127.0.0.1',
         'port' => '3306',
         'database' => 'project2',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'karim2',
+        'password' => 'password',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -354,12 +354,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\app',
+        'root' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\app/public',
+        'root' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -377,7 +377,7 @@
     ),
     'links' => 
     array (
-      'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\public\\storage' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\app/public',
+      '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/public/storage' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/app/public',
     ),
   ),
   'hashing' => 
@@ -412,13 +412,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\logs/laravel.log',
+        'path' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\logs/laravel.log',
+        'path' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -469,7 +469,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\logs/laravel.log',
+        'path' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/logs/laravel.log',
       ),
     ),
   ),
@@ -535,7 +535,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\resources\\views/vendor/mail',
+        0 => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/resources/views/vendor/mail',
       ),
     ),
   ),
@@ -640,7 +640,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\framework/sessions',
+    'files' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -660,9 +660,9 @@
   array (
     'paths' => 
     array (
-      0 => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\resources\\views',
+      0 => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/resources/views',
     ),
-    'compiled' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\framework\\views',
+    'compiled' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/framework/views',
   ),
   'debugbar' => 
   array (
@@ -676,7 +676,7 @@
     array (
       'enabled' => true,
       'driver' => 'file',
-      'path' => 'D:\\learning laravel\\Laravel Daily - Better Eloquent Performance\\Laravel Daily - Better Eloquent Performance\\Eloquent-Performance-14-WhereHas-Join-main\\storage\\debugbar',
+      'path' => '/home/karim/Desktop/Eloquent-Performance-14-WhereHas-Join-main/storage/debugbar',
       'connection' => NULL,
       'provider' => '',
       'hostname' => '127.0.0.1',
