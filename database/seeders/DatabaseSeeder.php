@@ -16,9 +16,9 @@ class DatabaseSeeder extends Seeder
         $this->call(UserSeeder::class);
         $this->call(OperatingSystemSeeder::class);
         $this->call(DeviceSeeder::class);
-
-        for ($i = 1; $i <= 50; $i++) {
-            $this->call(BookingSeeder::class);
-        }
+        $this->call(BookingSeeder::class);
+        // for ($i = 1; $i <= 50; $i++) {
+        //     $this->call(BookingSeeder::class);
+        // }
     }
 }

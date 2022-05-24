@@ -14,8 +14,8 @@ class DeviceSeeder extends Seeder
      */
     public function run()
     {
-        $devices = Device::factory(100000)->make();
-        $devices->chunk(500)->each(function($chunk) {
+        $devices = Device::factory(1000)->make();
+        $devices->chunk(50)->each(function($chunk) {
             Device::insert($chunk->toArray());
         });
     }
